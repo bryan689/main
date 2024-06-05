@@ -6,29 +6,29 @@ def diferencia():
     crudo_actual = 3.5
     crudo = 5
 
-    print("-------------------------------------------------------------------")
+    print("--------------------------------------------------------------------")
     diferencia_entre_actual_minimo = 100 - actual / minimo * 100
     print(f"la diferencia entre actual y minimo es {diferencia_entre_actual_minimo}%")
-    print("-------------------------------------------------------------------")
+    print("--------------------------------------------------------------------")
     #se multiplica por mil y se divide emtre 10 para que no se pase el numero con los flotantes y mover la coma
     diferencia_entre_actual_maximo = 100 - actual * 1000 // maximo /10
     print(f"la deferencia entre actual y maximo es {diferencia_entre_actual_maximo}%")
-    print("-------------------------------------------------------------------")
+    print("--------------------------------------------------------------------")
     diferencia_entre_actual_promedio = 100 - actual / promedio * 100
     print(f"la diferencia entre actual y el promedio es {diferencia_entre_actual_promedio}%")
-    print("-------------------------------------------------------------------")
+    print("--------------------------------------------------------------------")
     porcentaje_entre_promedio_crudo = 100 - promedio / crudo *100
     print(f"porcentaje basura que se reduse en el crudo {porcentaje_entre_promedio_crudo}%")
-    print("-------------------------------------------------------------------")
+    print("--------------------------------------------------------------------")
     porcentaje_entre_actual_crudo_actual = 100 - actual * 1000 // crudo_actual / 10
     print(f"porcentaje basura que se reduse en el crudo actual {porcentaje_entre_actual_crudo_actual}%")
-    print("-------------------------------------------------------------------")
+    print("--------------------------------------------------------------------")
     diferencia_entre_promedio_actual = promedio * 100 // actual / 10
     print(f"la diferencia entre promedio y actual es {diferencia_entre_promedio_actual}")
-    print("-------------------------------------------------------------------")
+    print("--------------------------------------------------------------------")
     diferencia_entre_actual_promedio = actual * 100 // promedio / 10
     print(f"la diferencia entre actual y promedio es {diferencia_entre_actual_promedio}%")
-    print("-------------------------------------------------------------------")
+    print("--------------------------------------------------------------------")
 
 def otro():
     print("ingrese una frase o un texto")
